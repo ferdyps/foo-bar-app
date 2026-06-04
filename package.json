@@ -1,21 +1,25 @@
 {
-  "name": "foo-bar-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ferdyps/foo-bar-app.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/ferdyps/foo-bar-app/issues"
-  },
-  "homepage": "https://github.com/ferdyps/foo-bar-app#readme"
+    "name": "foo-bar-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ferdyps/foo-bar-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/ferdyps/foo-bar-app/issues"
+    },
+    "homepage": "https://github.com/ferdyps/foo-bar-app#readme",
+    "dependencies": {
+        "axios": "^1.17.0",
+        "dotenv": "^17.4.2"
+    }
 }
